@@ -1,0 +1,12 @@
+This is my design algorithm for a program that allows you to play a basic game of Stratego.
+
+1. Create a 2d matrix array that keeps track of the Rank, color, and moveability of each piece.
+2. Print out the rules to the user.
+3. Initialize the board array, setting default values.
+4. Assign pieces to the board, in keeping with the strategy rules.
+5. Print out the boards current state
+6. Ask user for the position of the piece it wants to move, repeat until valid position is given
+7. Ask user for new position for the piece it wants to move, repeat until valid position is given.
+8. Compute move, removing any pieces that were captured and updating position. Check if game is over, Flag captured or user forfeit. If game over continue to 9, else return to 5.
+9. Display message congratulating user for victory or informing that user has forfeited.
+10. Display final state of the game board.
